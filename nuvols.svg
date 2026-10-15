@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280">
+  <defs>
+    <linearGradient id="cel" x2="0" y2="1">
+      <stop stop-color="#88b9dd"/>
+      <stop offset="1" stop-color="#b1d4ea"/>
+    </linearGradient>
+    <filter id="suau" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <path fill="url(#cel)" d="M0 0h400v280H0z"/>
+  <g fill="#fff" opacity=".85" filter="url(#suau)">
+    <ellipse cx="85" cy="65" rx="71" ry="19"/>
+    <ellipse cx="59" cy="51" rx="29" ry="21"/>
+    <ellipse cx="100" cy="44" rx="31" ry="25"/>
+    <ellipse cx="131" cy="59" rx="29" ry="20"/>
+    <ellipse cx="297" cy="155" rx="80" ry="21"/>
+    <ellipse cx="265" cy="141" rx="32" ry="24"/>
+    <ellipse cx="304" cy="129" rx="32" ry="28"/>
+    <ellipse cx="340" cy="148" rx="30" ry="22"/>
+    <ellipse cx="76" cy="238" rx="65" ry="15"/>
+    <ellipse cx="64" cy="226" rx="27" ry="20"/>
+    <ellipse cx="98" cy="232" rx="30" ry="20"/>
+  </g>
+</svg>
